@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/suivi-des-drones.Core.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/suivi-des-drones.Core.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/suivi-des-drones.Core.Infrastructure.csproj",
+        "projectName": "suivi-des-drones.Core.Infrastructure",
+        "projectPath": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/suivi-des-drones.Core.Infrastructure.csproj",
+        "packagesPath": "/Users/menaimetaghzou/.nuget/packages/",
+        "outputPath": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/menaimetaghzou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Interfaces/suivi-des-drones.Core.Interfaces.csproj": {
+                "projectPath": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Interfaces/suivi-des-drones.Core.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Interfaces/suivi-des-drones.Core.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Interfaces/suivi-des-drones.Core.Interfaces.csproj",
+        "projectName": "suivi-des-drones.Core.Interfaces",
+        "projectPath": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Interfaces/suivi-des-drones.Core.Interfaces.csproj",
+        "packagesPath": "/Users/menaimetaghzou/.nuget/packages/",
+        "outputPath": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Interfaces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/menaimetaghzou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Models/suivi-des-drones.Core.Models.csproj": {
+                "projectPath": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Models/suivi-des-drones.Core.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Models/suivi-des-drones.Core.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Models/suivi-des-drones.Core.Models.csproj",
+        "projectName": "suivi-des-drones.Core.Models",
+        "projectPath": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Models/suivi-des-drones.Core.Models.csproj",
+        "packagesPath": "/Users/menaimetaghzou/.nuget/packages/",
+        "outputPath": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/menaimetaghzou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

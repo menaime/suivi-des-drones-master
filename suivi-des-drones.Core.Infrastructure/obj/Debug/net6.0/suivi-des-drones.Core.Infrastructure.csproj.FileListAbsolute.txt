@@ -1,0 +1,17 @@
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/bin/Debug/net6.0/suivi-des-drones.Core.Infrastructure.deps.json
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/bin/Debug/net6.0/suivi-des-drones.Core.Infrastructure.dll
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/bin/Debug/net6.0/suivi-des-drones.Core.Infrastructure.pdb
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/bin/Debug/net6.0/suivi-des-drones.Core.Interfaces.dll
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/bin/Debug/net6.0/suivi-des-drones.Core.Models.dll
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/bin/Debug/net6.0/suivi-des-drones.Core.Interfaces.pdb
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/bin/Debug/net6.0/suivi-des-drones.Core.Models.pdb
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/obj/Debug/net6.0/suivi-des-drones.Core.Infrastructure.csproj.AssemblyReference.cache
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/obj/Debug/net6.0/suivi-des-drones.Core.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/obj/Debug/net6.0/suivi-des-drones.Core.Infrastructure.AssemblyInfoInputs.cache
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/obj/Debug/net6.0/suivi-des-drones.Core.Infrastructure.AssemblyInfo.cs
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/obj/Debug/net6.0/suivi-des-drones.Core.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/obj/Debug/net6.0/suivi-des-drones.Core.Infrastructure.csproj.CopyComplete
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/obj/Debug/net6.0/suivi-des-drones.Core.Infrastructure.dll
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/obj/Debug/net6.0/refint/suivi-des-drones.Core.Infrastructure.dll
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/obj/Debug/net6.0/suivi-des-drones.Core.Infrastructure.pdb
+/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Infrastructure/obj/Debug/net6.0/ref/suivi-des-drones.Core.Infrastructure.dll
