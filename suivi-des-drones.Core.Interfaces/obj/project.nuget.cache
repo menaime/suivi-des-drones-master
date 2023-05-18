@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y0q1JRFHUMaXD/AB9Eune9Q2qTInUDxqoB3ucZ0U8+mJxqVet880X3vuRrBqGOqaOE8+EiRDO9DendY+Y5jaNA==",
+  "dgSpecHash": "JmUgHZZ3Yfr361ztOq0e6Iutj1+9ih47DpyV1tdN7kFbfcfBQCj/stTeqc2O2aNEsfaVJW/+e4ngnz40k0bXTA==",
   "success": true,
-  "projectFilePath": "/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.Core.Interfaces/suivi-des-drones.Core.Interfaces.csproj",
+  "projectFilePath": "C:\\Users\\servi\\Documents\\GitHub\\suivi-des-drones-master\\suivi-des-drones.Core.Interfaces\\suivi-des-drones.Core.Interfaces.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

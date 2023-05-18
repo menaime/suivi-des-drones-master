@@ -11,5 +11,13 @@ namespace suivi_des_drones.Core.Interfaces.Infrastructure
         /// <summary>
         /// Retourne la liste compléte
         /// </summary>
-        List<Drone> GetList();    }
+        List<Drone> List { get; }
+
+        /// <summary>
+        /// Permet ajout d(un nouveau drone en bases de donée
+        /// </summary>
+        /// <param name="drone"></param>
+        void AddOne (Drone drone);
+        List<Drone> GetList();
+    }
 }

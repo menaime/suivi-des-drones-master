@@ -11,12 +11,13 @@ namespace suivi_des_drones.web.UI.Pages
     public class IndexModel : PageModel
     {
         #region Fields
-        private readonly ILogger<IndexModel>_logger;
+        private readonly ILogger<IndexModel> _logger;
         private readonly IDroneRepository repository;
+        private readonly List<Drone> list;
         #endregion
 
         #region Constructors
-        public IndexModel(ILogger<IndexModel> logger, 
+        public IndexModel(ILogger<IndexModel> logger,
             IConfiguration configuration,
             IDroneRepository repository)
         {
@@ -45,10 +46,10 @@ namespace suivi_des_drones.web.UI.Pages
         /// 
         public IActionResult OnGet()
         {
-            this.SetListOfDrones();
-            this.SetListStatus();
+            SetListOfDrones();
+            SetListStatus();
 
-            return this.Page();
+            return Page();
         }
         #endregion
 
@@ -58,16 +59,19 @@ namespace suivi_des_drones.web.UI.Pages
             //this.Drones.Add(new() { Matricule = "54XXD0", CreationDate = DateTime.Now, HealthStatus = HealthStatus.Broken });
             //this.Drones.Add(new() { Matricule = "15FDP14", CreationDate = DateTime.Now.AddDays(-150) });
 
-            var dataLayer = new SqlServerDroneDataLayer();
+            _ = new            //this.Drones.Add(new() { Matricule = "54XXD0", CreationDate = DateTime.Now, HealthStatus = HealthStatus.Broken });
+            //this.Drones.Add(new() { Matricule = "15FDP14", CreationDate = DateTime.Now.AddDays(-150) });
 
-            this.Drones = this.repository.GetAll();
+            SqlServerDroneDataLayer();
+
+            Drones = repository.GetAll(list);
         }
 
         private void SetListStatus()
         {
-            this.StatusList.Add(HealthStatus.OK);
-            this.StatusList.Add(HealthStatus.Repair);
-            this.StatusList.Add(HealthStatus.Broken);
+            StatusList.Add(HealthStatus.OK);
+            StatusList.Add(HealthStatus.Repair);
+            StatusList.Add(HealthStatus.Broken);
         }
         #endregion
 

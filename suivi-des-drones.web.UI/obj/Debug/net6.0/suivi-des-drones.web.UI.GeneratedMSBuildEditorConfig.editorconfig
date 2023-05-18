@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = suivi_des_drones.web.UI
 build_property.RootNamespace = suivi_des_drones.web.UI
-build_property.ProjectDir = /Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.web.UI/
+build_property.ProjectDir = C:\Users\servi\Documents\GitHub\suivi-des-drones-master\suivi-des-drones.web.UI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.web.UI
+build_property.MSBuildProjectDirectory = C:\Users\servi\Documents\GitHub\suivi-des-drones-master\suivi-des-drones.web.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/CreateDrone.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlRHJvbmUuY3NodG1s
+[C:/Users/servi/Documents/GitHub/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/CreateDrone.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlRHJvbmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/servi/Documents/GitHub/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+[C:/Users/servi/Documents/GitHub/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/IndexOld.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXhPbGQuY3NodG1s
+[C:/Users/servi/Documents/GitHub/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/IndexOld.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhPbGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+[C:/Users/servi/Documents/GitHub/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/servi/Documents/GitHub/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/servi/Documents/GitHub/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/servi/Documents/GitHub/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/menaimetaghzou/Desktop/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-2gitm6qypc
+[C:/Users/servi/Documents/GitHub/suivi-des-drones-master/suivi-des-drones.web.UI/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-j7xzll7sik
