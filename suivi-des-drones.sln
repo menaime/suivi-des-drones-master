@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "suivi-des-drones.Core.Model
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "suivi-des-drones.web.UI", "suivi-des-drones.web.UI\suivi-des-drones.web.UI.csproj", "{773CCCD7-C7E6-44BC-8373-955A6948A581}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{97181063-5CD2-4C45-9B8F-B7683FEEB024}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{7030687F-33A5-469A-AEE4-807EE617D14E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,5 +49,10 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ABE083AE-C4BD-4C32-B861-3D0DBF912862}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5480D6B-ACEF-41AD-86C2-31259E042A0B} = {97181063-5CD2-4C45-9B8F-B7683FEEB024}
+		{487DFFC7-EA5C-4F06-877B-27A4CA65A4F2} = {97181063-5CD2-4C45-9B8F-B7683FEEB024}
+		{7D2963EA-FD19-431D-A962-E01F3D959C80} = {97181063-5CD2-4C45-9B8F-B7683FEEB024}
 	EndGlobalSection
 EndGlobal
