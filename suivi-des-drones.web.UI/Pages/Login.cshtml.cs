@@ -27,16 +27,14 @@ namespace suivi_des_drones.web.UI.Pages
 
             try
             {
-                HttpContext.Session.SetInt32("UserId", 12345);
 
-                result = RedirectToPage("/index");
+                var user = Repository.LogIn(this.User);
 
-                ///var user = Repository.LogIn(this.User);
-
-                /// if (user != null) 
-                /// {
-
-                /// }
+                if (user != null) 
+                 {
+                    HttpContext.Session.SetString("UserId", user.Login);
+                    result = RedirectToPage("/index");
+                }
 
             }
             catch (Exception)
