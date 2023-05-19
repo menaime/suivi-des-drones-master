@@ -19,20 +19,20 @@ namespace suivi_des_drones.web.UI.Pages
         #endregion
 
         #region Public methods
-        
+
         #endregion
         public void OnGet()
-        {    
+        {
         }
 
         //public void OnPost(Drone drone)                 //(TestClass test)
-        public void OnPost() 
+        public void OnPost()
         {
-            if (this.ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                this.repository.Save(this.MonDrone);
-                this.MonDrone = new Drone();
-                this.ModelState.Clear();
+                repository.Save(MonDrone);
+                MonDrone = new Drone();
+                ModelState.Clear();
                 //string mactricule = this.Request.Form [ "matricule"];
             }
 

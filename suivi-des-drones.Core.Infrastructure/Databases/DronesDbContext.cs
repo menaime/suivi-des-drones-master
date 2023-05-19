@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using suivi_des_drones.Core.Models;
-using MySQL.Data.EntityFrameworkCore;
 
 namespace suivi_des_drones.Core.Infrastructure.Databases
 {
@@ -16,9 +15,9 @@ namespace suivi_des_drones.Core.Infrastructure.Databases
         #region Public Methods
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new EntityConfigurations.DroneEntityTypeConfiguration());
-            modelBuilder.ApplyConfiguration(new EntityConfigurations.HealthStatusEntityTypeConfiguration());
-            modelBuilder.ApplyConfiguration(new EntityConfigurations.UseEntityTypeConfiguration());
+            _ = modelBuilder.ApplyConfiguration(new EntityConfigurations.DroneEntityTypeConfiguration());
+            _ = modelBuilder.ApplyConfiguration(new EntityConfigurations.HealthStatusEntityTypeConfiguration());
+            _ = modelBuilder.ApplyConfiguration(new EntityConfigurations.UseEntityTypeConfiguration());
             //modelBuilder.Entity<Drone>().HasKey(item => item.Matricule);
         }
         #endregion
@@ -38,5 +37,6 @@ namespace suivi_des_drones.Core.Infrastructure.Databases
         public DbSet<Drone> HealthStatutses { get; set; }
 
         public DbSet<CompleteUser> CompletedUsers { get; set; }
+        public CompleteUser Users { get; internal set; }
     }
 }

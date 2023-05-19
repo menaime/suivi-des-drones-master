@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using suivi_des_drones.Core.Interfaces.Repositories;
 using suivi_des_drones.Core.Models;
-using System.Collections.Generic;
 
 namespace suivi_des_drones.web.UI.Pages
 {
@@ -10,12 +9,12 @@ namespace suivi_des_drones.web.UI.Pages
     public class IndexOldModel : PageModel
     {
         #region Fields
-        private readonly ILogger<IndexModel>_logger;
+        private readonly ILogger<IndexModel> _logger;
         private readonly IDroneRepository repository;
         #endregion
 
         #region Constructors
-        public IndexOldModel(ILogger<IndexModel> logger, 
+        public IndexOldModel(ILogger<IndexModel> logger,
             IConfiguration configuration,
             IDroneRepository repository)
         {
@@ -44,11 +43,11 @@ namespace suivi_des_drones.web.UI.Pages
         /// 
         public IActionResult OnGet()
         {
-            IActionResult result = this.RedirectPermanent("/Index");
-            this.SetListOfDrones();
-            this.SetListStatus();
+            _ = RedirectPermanent("/Index");
+            SetListOfDrones();
+            SetListStatus();
 
-            return this.Page();
+            return Page();
         }
         #endregion
 
@@ -60,14 +59,14 @@ namespace suivi_des_drones.web.UI.Pages
 
             //var dataLayer = new SqlServerDroneDataLayer();
 
-            this.Drones = this.repository.GetAll(List);
+            Drones = repository.GetAll(List);
         }
 
         private void SetListStatus()
         {
-            this.StatusList.Add(HealthStatus.OK);
-            this.StatusList.Add(HealthStatus.Repair);
-            this.StatusList.Add(HealthStatus.Broken);
+            StatusList.Add(HealthStatus.OK);
+            StatusList.Add(HealthStatus.Repair);
+            StatusList.Add(HealthStatus.Broken);
         }
         #endregion
 

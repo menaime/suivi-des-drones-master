@@ -9,7 +9,7 @@ namespace suivi_des_drones.web.UI.Pages
     {
         #region Properties
         [BindProperty]
-        public AuthenticationUser User { get; set; }
+        public new AuthenticationUser User { get; set; }
         #endregion
         #region Fields
         private readonly IUserRepository Repository;
@@ -17,22 +17,26 @@ namespace suivi_des_drones.web.UI.Pages
         #region Constructors
         public LoginModel(IUserRepository repository)
         {
-           this.Repository = repository;
+            Repository = repository;
         }
         #endregion
         #region Public methods
         public IActionResult OnPost()
         {
-            IActionResult result = this.Page();
+            IActionResult result = Page();
 
             try
             {
-                var user = Repository.LogIn(this.User);
+                HttpContext.Session.SetInt32("UserId", 12345);
 
-                if (user != null) 
-                {
-                
-                }
+                result = RedirectToPage("/index");
+
+                ///var user = Repository.LogIn(this.User);
+
+                /// if (user != null) 
+                /// {
+
+                /// }
 
             }
             catch (Exception)

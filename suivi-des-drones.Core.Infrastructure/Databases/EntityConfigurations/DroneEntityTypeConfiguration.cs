@@ -9,10 +9,10 @@ namespace suivi_des_drones.Core.Infrastructure.Databases.EntityConfigurations
         #region Public methods
         public void Configure(EntityTypeBuilder<Drone> builder)
         {
-            builder.HasKey(item => item.Matricule);
-            builder.ToTable("Drone");
-            builder.Property(item => item.Matricule) .IsRequired(true);
-            builder.Property(item => item.Matricule).HasMaxLength(255);
+            _ = builder.HasKey(item => item.Matricule);
+            _ = builder.ToTable("Drone");
+            _ = builder.Property(item => item.Matricule).IsRequired(true);
+            _ = builder.Property(item => item.Matricule).HasMaxLength(255);
             ///builder.HasOne(item => item.HealthStatus)
             ///     .WithMany(item => item.Drones)
             ///    .HasForeignKey(item => item.HealthStatusId);

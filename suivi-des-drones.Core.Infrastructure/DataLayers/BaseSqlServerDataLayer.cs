@@ -11,13 +11,13 @@ namespace suivi_des_drones.Core.Infrastructure.DataLayers
         private readonly BaseSqlServerDataLayer? context = null;
         #endregion
         #region Constructor
-         protected BaseSqlServerDataLayer(DronesDbContext context)
+        protected BaseSqlServerDataLayer(DronesDbContext context)
         {
             this.context = Context;
         }
         #endregion
         #region Property
-        public DronesDbContext Context { get => Context;}
+        public DronesDbContext Context => Context;
 
         public static implicit operator BaseSqlServerDataLayer(DronesDbContext v)
         {

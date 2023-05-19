@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace suivi_des_drones.Core.Models
+﻿namespace suivi_des_drones.Core.Models
 {
     /// <summary>
     /// Drone de l'application

@@ -9,8 +9,8 @@ namespace suivi_des_drones.Core.Infrastructure.Databases.EntityConfigurations
         #region Public methods
         public void Configure(EntityTypeBuilder<CompleteUser> builder)
         {
-            builder.HasKey(item => item.Login);
-            builder.ToTable("User");
+            _ = builder.HasKey(item => item.Login);
+            _ = builder.ToTable("User");
 
         }
         #endregion

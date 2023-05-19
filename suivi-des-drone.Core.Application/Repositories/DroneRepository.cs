@@ -7,9 +7,9 @@ namespace suivi_des_drone.Core.Application.Repositories
 /// Repository qui gère les drones, la création, la lecture
 /// </summary>
 {
-    public class DroneRepository :  IDroneRepository
+    public class DroneRepository : IDroneRepository
     {
-        private IDroneRepository dataLayer;
+        private readonly IDroneRepository dataLayer;
 
         #region Fields
         //private readonly IDroneRepository dataLayer;
@@ -32,11 +32,11 @@ namespace suivi_des_drone.Core.Application.Repositories
         #region Public methods
         public List<Drone> GetAll(List<Drone> list)
         {
-            List<Drone> drones = this.dataLayer.GetList();
+            List<Drone> drones = dataLayer.GetList();
             List<Drone> List = drones;
-            
+
             return List();
-         
+
         }
 
         public List<Drone> GetAll()
@@ -49,10 +49,10 @@ namespace suivi_des_drone.Core.Application.Repositories
             return dataLayer.GetList();
         }
 
-        public void Save(Drone drone) 
+        public void Save(Drone drone)
         {
             drone.HealthStatusId = HealthStatus.OK.Id;
-            this.dataLayer.AddOne(drone);
+            dataLayer.AddOne(drone);
         }
 
         #endregion

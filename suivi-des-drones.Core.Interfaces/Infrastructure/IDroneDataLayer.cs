@@ -17,7 +17,7 @@ namespace suivi_des_drones.Core.Interfaces.Infrastructure
         /// Permet ajout d(un nouveau drone en bases de donée
         /// </summary>
         /// <param name="drone"></param>
-        void AddOne (Drone drone);
+        void AddOne(Drone drone);
         List<Drone> GetList();
     }
 }

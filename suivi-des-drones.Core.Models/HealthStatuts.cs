@@ -27,9 +27,9 @@
 
         #region Properties
         public decimal Id { get; init; }
-        public string Label { get; init; } = default!;  
-        
-        public List<Drone> Drones{ get; set; }
+        public string Label { get; init; } = default!;
+
+        public List<Drone>? Drones { get; set; }
         #endregion
     }
 }
