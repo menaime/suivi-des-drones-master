@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using suivi_des_drones.Core.Interfaces.Repositories;
 using suivi_des_drones.Core.Models;
-using System.ComponentModel.DataAnnotations;
 
 namespace suivi_des_drones.web.UI.Pages
 {

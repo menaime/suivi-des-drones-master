@@ -4,7 +4,6 @@ using suivi_des_drones.Core.Infrastructure.Databases;
 using suivi_des_drones.Core.Infrastructure.DataLayers;
 using suivi_des_drones.Core.Interfaces.Infrastructure;
 using suivi_des_drones.Core.Interfaces.Repositories;
-using MySQL.Data.EntityFrameworkCore;
 
 
 
@@ -24,7 +23,9 @@ builder.Services.AddDbContext<DronesDbContext>(options =>
 });
 
 builder.Services.AddScoped<IDroneDataLayer, SqlServerDroneDataLayer>();
-builder.Services.AddScoped<IDroneRepository, DroneRepository>();
+builder.Services.AddScoped<IUserDataLayer, SqlServerUserDataLayer>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<DroneRepository, DroneRepository>();
 
 var app = builder.Build();
 

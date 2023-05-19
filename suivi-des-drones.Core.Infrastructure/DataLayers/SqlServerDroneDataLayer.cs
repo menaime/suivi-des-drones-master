@@ -5,20 +5,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace suivi_des_drones.Core.Infrastructure.DataLayers
 {
-    public class SqlServerDroneDataLayer : IDroneDataLayer
+    public class SqlServerDroneDataLayer : BaseSqlServerDataLayer, IDroneDataLayer
     {
         #region Fields
         private readonly DronesDbContext? context = null;
-
-        public SqlServerDroneDataLayer()
-        {
-        }
+      
         #endregion
         #region Constructors
-        public SqlServerDroneDataLayer(DronesDbContext context)
-        {
-            this.context = context;
-        }
+        public SqlServerDroneDataLayer(DronesDbContext Context) : base(Context) { }
+        
 
 
         #endregion
@@ -26,16 +21,13 @@ namespace suivi_des_drones.Core.Infrastructure.DataLayers
 
        
                         
-        public List<Drone> GetList()
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public List<Drone> List
         {
             get
             {
-                var query = from item in this.context?.Drones.Include(item =>item.HealthStatus)
+                var query = from item in this.Context?.Drones.Include(item =>item.HealthStatus)
                                 //where item.CreationDate > DateTime.Now
                             select item;
 
@@ -48,10 +40,15 @@ namespace suivi_des_drones.Core.Infrastructure.DataLayers
 
             this.context?.Drones.Add(drone);
             
-            this.context?.SaveChanges();
+            this.Context?.SaveChanges();
 
             ///var entry = this.context?.Entry(drone.HealthStatus);
             ///entry.State = Microsoft.EntityFrameworkCore.EntityState.Detached;
+        }
+
+        public List<Drone> GetList()
+        {
+            throw new NotImplementedException();
         }
         #endregion
     }

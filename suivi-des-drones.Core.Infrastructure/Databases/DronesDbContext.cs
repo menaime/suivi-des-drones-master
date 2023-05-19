@@ -18,6 +18,7 @@ namespace suivi_des_drones.Core.Infrastructure.Databases
         {
             modelBuilder.ApplyConfiguration(new EntityConfigurations.DroneEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new EntityConfigurations.HealthStatusEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new EntityConfigurations.UseEntityTypeConfiguration());
             //modelBuilder.Entity<Drone>().HasKey(item => item.Matricule);
         }
         #endregion
@@ -33,7 +34,9 @@ namespace suivi_des_drones.Core.Infrastructure.Databases
 
         #endregion
         public DbSet<Drone> Drones { get; set; }
-        
+
         public DbSet<Drone> HealthStatutses { get; set; }
+
+        public DbSet<CompleteUser> CompletedUsers { get; set; }
     }
 }
