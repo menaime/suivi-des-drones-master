@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using NUnit.Framework;
 using suivi_des_drones.Core.Interfaces.Repositories;
 using suivi_des_drones.Core.Models;
+using System.Collections.Generic;
 
 namespace suivi_des_drones.web.UI.Pages
 {
@@ -59,7 +61,7 @@ namespace suivi_des_drones.web.UI.Pages
 
             //var dataLayer = new SqlServerDroneDataLayer();
 
-            Drones = repository.GetAll(List);
+            Drones = repository.GetAll(list);
         }
 
         private void SetListStatus()

@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using suivi_des_drones.Core.Infrastructure.DataLayers;
 using suivi_des_drones.Core.Interfaces.Repositories;
 using suivi_des_drones.Core.Models;
 
@@ -58,11 +57,8 @@ namespace suivi_des_drones.web.UI.Pages
         {
             //this.Drones.Add(new() { Matricule = "54XXD0", CreationDate = DateTime.Now, HealthStatus = HealthStatus.Broken });
             //this.Drones.Add(new() { Matricule = "15FDP14", CreationDate = DateTime.Now.AddDays(-150) });
-
-            _ = new            //this.Drones.Add(new() { Matricule = "54XXD0", CreationDate = DateTime.Now, HealthStatus = HealthStatus.Broken });
+            //this.Drones.Add(new() { Matricule = "54XXD0", CreationDate = DateTime.Now, HealthStatus = HealthStatus.Broken });
             //this.Drones.Add(new() { Matricule = "15FDP14", CreationDate = DateTime.Now.AddDays(-150) });
-
-            SqlServerDroneDataLayer();
 
             Drones = repository.GetAll(list);
         }

@@ -30,18 +30,21 @@ namespace suivi_des_drone.Core.Application.Repositories
 
 
         #region Public methods
-        public List<Drone> GetAll(List<Drone> list)
+        public List<Drone> GetAll(List<Drone> List)
         {
             List<Drone> drones = dataLayer.GetList();
-            List<Drone> List = drones;
+            List<Drone> list = drones;
+            return drones;  
 
-            return List();
-
+        }
+        public List<Drone> GetAll(object list)
+        {
+            return dataLayer.GetAll(list);
         }
 
         public List<Drone> GetAll()
         {
-            return dataLayer.GetAll();
+            throw new NotImplementedException();
         }
 
         public List<Drone> GetList()

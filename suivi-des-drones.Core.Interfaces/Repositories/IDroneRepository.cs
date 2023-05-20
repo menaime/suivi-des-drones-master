@@ -8,6 +8,8 @@ namespace suivi_des_drones.Core.Interfaces.Repositories
         void AddOne(Drone drone);
         List<Drone> GetAll();
         List<Drone> GetAll(List<Drone> list);
+        List<Drone> GetAll(object list);
+   
         List<Drone> GetList();
 
         /// <summary>
